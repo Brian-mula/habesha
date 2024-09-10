@@ -1,0 +1,21 @@
+.vamos-bg{
+    background-image: url('/image/habesha-logo.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.98;
+}
+
+@media screen and (min-width: 992px) {
+    .vamos-bg {
+        background-image: url('/image/habesha-logo.png');
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        opacity: 0.98;
+    }
+  }
