@@ -9,11 +9,11 @@ const roboto = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Vamos LC",
+  title: "Habesha bets",
   description: "Home of Bets",
 };
 //https://embed.tawk.to/66deb70350c10f7a00a622fa/1i7avlqa7';
-const url = 'https://embed.tawk.to/66deb70350c10f7a00a622fa/1i7avlqa7';
+//const url = 'https://embed.tawk.to/66deb70350c10f7a00a622fa/1i7avlqa7';
 
 export default function RootLayout({
   children,

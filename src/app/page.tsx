@@ -1,14 +1,43 @@
 "use client";
 
-import TawkToComponent from "@/components/TawkToComponent";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 import "./page.css";
 
+
 export default function Page() {
   const url = "https://embed.tawk.to/6082a08d62662a09efc16533/1f3v46arb";
-  const href = "https://arada.bet/lander";
+  const href = "https://flashsport.bet";
+  // const habeshaFullText= ` የ habesabets.com ዶሜን ህጋዊ ባለቤት።
+  //                        ለበለጠ መረጃ  www.flashsport.bet ይጎብኙ`
+
+const habeshaFirstSegment = 'ተከበራችሁ ደንበኞቻችን ላለፉት  ዓመታት '
+const habeshaSecondSegment = 'ህጋዊ ባለቤት እና ሀበሻ ስፖርት ቤቲንግ ኅላ/የተ/የግ/ማ መካከል  በነበረው የፍራንቻይዝ ስምምነት መሰረት'
+const habeshaThirdSegment = 'በተሰኘው ዶሜይን የሚቀርበውን አገልግሎት ስታገኙ የቆያችሁ መሆኑ ይታወቃል። ሆኖም ሀበሻ ስፖርት ቤቲንግ ኅላ/የተ/የግ/ማ በስምምነቱ መሰረት ለ '
+const habeshaForthSegment = `ና ለሶፍትዌር አቅራቢዎች ሊፈፅም የሚገባውን ክፍያ ሳይከፍል ደንበኞችን በሚያሳስት ሁኔታ የዶሜኑ ባለቤት እንደሆነ በማስመሰል ስምምነቱን የሚጥሱ ህገወጥ ድርጊቶች ሲፈጽም የቆየ መሆኑን አዉቀናል።
+ስለዚህ ይህን ህገወጥ ተግባር እንዲያቆምና በፍራንቻይዝ ስምምነቱ መሰረት እንዲሰራ ተደጋጋሚ ማስጠንቀቂያ ብንሰጥም በህገወጥ ተግባሩ የቀጠለ በመሆኑ በመካከላችን ፈፅመነው የነበረውን በዶሜይናችን የመጠቀም የፍራንቻይዝ ስምምነት ሰርዘናል።
+ስለዚህ ደንበኞቻችን ከ`
+const habeshaFifthSegment = `ዶሜን በኩል ስታገኙ የነበሩትን አገልግሎቶች በአዲሱ  ዶሜንናችን`
+const habeshaSixthSegment = `የሚለውን ሊንክ በመጫን  እንደበፊቱ የውርርድ ጨዋታዎች  መቀጠል እንደሚችሉ በአክብሮት ልናሳስብ እንወዳለን።  ሲረል ሬነር`
+  const habeshaFirstText = `ሲረል ሬነር`
+ // const intermediateText = `ህጋዊ ባለቤት እና ሀበሻ ቤቲንግ ኃላ/የተ/የግ/ማህበር መካከል ተፈርሞ በነበረው የፍራንቻይዝ ስምምነት መሰረት`
+  const amHaricFirstParaGraph = ` habeshabets.com `
+//   const habeshaSecondText = `የተሰኘውን ዶሜይን  የሚያቀርበውን አገልግሎት ስታገኙ የቆያችሁ መሆኑ ይታወቃል። 
+// ሆኖም ሀበሻ ቤቲንግ ኅላ/የተ/የግ/ማህበር በስምምነቱ መሰረት ለ `
+// const habeshaSecondIntermediate = `እና ለሶፍትዌር አቅራቢዎች ሊፈፅም የሚጠበቅበትን ክፍያ ሳይከፍል ደንበኞችን በሚያሳስት ሁኔታ የዶሜኑ ባለቤት እንደሆነ በማስመሰል ስምምነቱን የሚጥሱ ህገወጥ ድርጊቶች ሲፈጽም የቆየ መሆኑን አዉቀናል።`
+//   const amHaricSecondText = `ስለዚህ ይህን ህገወጥ ተግባር እንዲያቆምና በፍራንቻይዝ ስምምነቱ መሰረት እንዲሰራ ተደጋጋሚ ማስጠንቀቂያ ብንሰጥም በህገወጥ ተግባሩ የቀጠለ በመሆኑ በመካከላችን ፈፅመነው የነበረውን በዶሜይናችን የመጠቀም የፍራንቻይዝ ስምምነት በመሰረዝ በምትኩ አዲስ የፍራንቻይዝ ስምምነት ኢትዮጽያ ዉስጥ በህጋዊ መንገድ ከተመሰርተዉ flash.bet ከተሰኘ ዶሜይን ጋር ልንመሰርት ችለናል።`
+// const amHaricThirdText = `ስለዚህ ደንበኞቻችን ከሀበሻ ቤቲንግ ኃላ/የተ/የግ/ማህበር ጋር በነበረው ዶሜን ያገኛችኋቸውን መብቶችና ያሉባችሁን ሃላፊነቶች ወደ አዲስ የተቋቋመው የንግድ መዋቅር የሚተላለፉላችሁ መሆኑንም ተረድታችሁ አዲስ የንግድ ስራ ግንኙነት ወደ መሰረትንበት`
+
+
+const flashText = `flashsport.bet`
+const flashUrl = "https://flashsport.bet/"
+// const amharicThirdIntermediate = `ዶሜን በሚል ወደ ተቋቋመው አዲሱ የስራ አጋራችን ድህረ ገጽ ከዚህ በኋላ ያለውን ሊንክ በመጫን ከድርጅታችን የሚቀርብላችሁ የውርርድ ጨዋታዎች በአዲሱ ዶሜን በኩል እንደሚቀጥሉ እያሳወቅን በተደረገው ማሻሻያ ምክንያት ሊያጋጥም ለሚችለው መጉላላት ከወዲሁ ይቅርታችሁን እንጠይቃለን።  
+//  ሚስተር ሲረል ሬነር`
+
+  const amharicTitle = "ጥብቅ ማሳሰቢያ"
+  const habeshUrl = "https://habeshabets.com/en/home"
+
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -31,44 +60,43 @@ export default function Page() {
           className=""
         />
         <h1 className="text-primary text-2xl lg:text-5xl pt-6 pb-3 text-center">
-          Official Notice!
+          {amharicTitle}
         </h1>
 
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
-          Due to failure to meet their payment obligation, Vamos Entertainment
-          PLC. lost their access to this domain as well as the software. We
-          regret to inform you that the software the company was using is no
-          longer operational.
+         {habeshaFirstSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link>  {habeshaSecondSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaThirdSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaForthSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaFifthSegment} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {habeshaSixthSegment}
         </p>
-
-        <h1 className="text-primary text-2xl lg:text-5xl py-3 text-center">
-          Good news!
-        </h1>
 
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
-          You can now go to{" "}
-          <Link href={href} className="text-primary text font-bold text-sm lg:text-2xl">
-            {" "}
-            arada.bet
-          </Link>{" "}
-          and find the same software with better odds and bonuses. You can log
-          in using your previous phone number password, Arada has agreed to even
-          keep your old wallet balance so your money is not lost.
+          {habeshaFirstText}
         </p>
+        <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
+        <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {`ዶሜን ህጋዊ ባለቤት።`} 
+        </p>
+        <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
+          {`ለበለጠ መረጃ`} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {`ይጎብኙ`} 
+        </p>
+       
+        {/* <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
+          {amHaricSecondText}
+        </p>
+        <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
+          {amHaricThirdText} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {amharicThirdIntermediate}
+        </p> */}
+      
 
-        <h1 className="text-primary text-xl lg:text-2xl py-3 text-center">
-          Arada Bet - We always pay (even to our suppliers)
-        </h1>
-
-        <div className="flex space-x-3 justify-center items-center pt-10">
+        <div className="flex space-x-3 justify-center items-center pt-10 w-full lg:w-96">
           <Link
             href={href}
-            className="btn rounded-md bg-yellow-400 hover:bg-yellow-400 text-gray-950 text-lg animate-bounce border-primary border"
+            className=" w-full rounded-md bg-yellow-400 hover:bg-yellow-400 text-gray-950 text-lg font-bold p-6 flex justify-center items-center animate-bounce border-primary border"
           >
-            New Login
+            <p>New Login</p>
           </Link>
-          <TawkToComponent />
+         
         </div>
+        
+
+      
       </div>
     </div>
   );
