@@ -64,14 +64,14 @@ const flashUrl = "https://flashsport.bet/"
         </h1>
 
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
-         {habeshaFirstSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link>  {habeshaSecondSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaThirdSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaForthSegment} <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {habeshaFifthSegment} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {habeshaSixthSegment}
+         {habeshaFirstSegment} <span className="text-yellow-400" > {amHaricFirstParaGraph}</span>  {habeshaSecondSegment} <span className="text-yellow-400" > {amHaricFirstParaGraph}</span> {habeshaThirdSegment} <span className="text-yellow-400" > {amHaricFirstParaGraph}</span> {habeshaForthSegment} <span className="text-yellow-400" > {amHaricFirstParaGraph}</span> {habeshaFifthSegment} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {habeshaSixthSegment}
         </p>
 
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
           {habeshaFirstText}
         </p>
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
-        <Link href={habeshUrl} className="text-yellow-400" > {amHaricFirstParaGraph}</Link> {`ዶሜን ህጋዊ ባለቤት።`} 
+        <span className="text-yellow-400" > {amHaricFirstParaGraph}</span> {`ዶሜን ህጋዊ ባለቤት።`} 
         </p>
         <p className="max-w-md lg:max-w-5xl text-center text-[12px] lg:text-2xl  py-3 text-white tracking-wider font-medium">
           {`ለበለጠ መረጃ`} <Link href={flashUrl} className="text-yellow-400" > {flashText}</Link> {`ይጎብኙ`} 
