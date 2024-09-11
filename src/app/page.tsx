@@ -36,7 +36,7 @@ const flashUrl = "https://flashsport.bet/"
 //  ሚስተር ሲረል ሬነር`
 
   const amharicTitle = "ጥብቅ ማሳሰቢያ"
-  const habeshUrl = "https://habeshabets.com/en/home"
+  //const habeshUrl = "https://habeshabets.com/en/home"
 
   useEffect(() => {
     const script = document.createElement("script");
