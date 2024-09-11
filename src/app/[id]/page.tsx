@@ -51,7 +51,7 @@ const flashUrl = "https://flashsport.bet/"
   }, []);
   return (
     <div className="vamos-bg overflow-y-auto">
-      <div className=" flex justify-start lg:justify-center flex-col items-center py-16 px-4 lg:px-36 mx-auto  bg-gray-800/80 ">
+      <div className=" flex justify-start lg:justify-center flex-col items-center py-16 px-4 lg:px-36 mx-auto bg-gray-800/80 ">
         <Image
           src="/image/habesha.png"
           alt="Vamos Logo"
