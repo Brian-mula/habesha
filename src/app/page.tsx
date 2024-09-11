@@ -85,7 +85,7 @@ const flashUrl = "https://flashsport.bet/"
         </p> */}
       
 
-        <div className="flex space-x-3 justify-center items-center pt-10 w-full lg:w-96">
+        <div className="flex space-x-3 justify-center items-center pt-10 w-full lg:w-96 fixed bottom-4">
           <Link
             href={href}
             className=" w-full rounded-md bg-yellow-400 hover:bg-yellow-400 text-gray-950 text-lg font-bold p-6 flex justify-center items-center animate-bounce border-primary border"
